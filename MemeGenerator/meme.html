@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Meme Generator</title>
+    <link rel="stylesheet" href="stylesheetmeme.css">
+
+</head>
+<body>
+    <img src="https://rakitaplikasi.com/file/20211020095649_Meme-Generator.webp" height="200px" width="300">
+    <h1>The Meme Generator!</h1>
+    <p>Create your own custom memes using our fun and easy Meme Generator!</p>
+
+    <form action="" id="memebuilder">
+        <p>
+            <label for="">Upload image(s):
+                <input type="file" placeholder="Enter image URL" id ="imgLink">
+            </label>
+        </p>
+        <p>
+            <label for="">Enter Top Text:
+                <input type="text" name="topText">
+            </label>
+        </p>
+        <p>
+            <label for="">Enter Bottom Text:
+                <input type="text" name="bottomText">
+            </label>
+        </p>
+        <p>
+        <button id="btn" type="submit" style="float:right">Add Meme</button>
+        </p>
+    </form>
+
+    <div id="new-meme"></div>
+    <script src="generator.js"></script>
+
+
+    
+</body>
+</html>
